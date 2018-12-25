@@ -16,8 +16,8 @@
 		8F8E0BAEF235F52C4E4473746DD9BE1B /* Pods-AnimationPanel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0F879BBD441EC858CF11DBA9FEB8E0 /* Pods-AnimationPanel_Tests-dummy.m */; };
 		E211CC42952D1F72C29F33C47EE3FD5D /* AnimationPanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C959F7EDED8E1C7B2668A8F64DCC89A9 /* AnimationPanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F82F3A9155EB3ED85ABD8202300EE5D8 /* Pods-AnimationPanel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8916D2FCEC64A81F43E6ED2B6F19301A /* Pods-AnimationPanel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA3C736D21D2008800AF2C5A /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C736C21D2008800AF2C5A /* PanelView.swift */; };
-		FFFDFA3C1A1D5EF4F3C15FA6E3F939EF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F49C6C3AF7FAB4CEB0826CE34B881 /* ReplaceMe.swift */; };
+		FA3C737321D2051C00AF2C5A /* Panel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C737221D2051C00AF2C5A /* Panel.swift */; };
+		FA3C737721D208E300AF2C5A /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C737621D208E300AF2C5A /* PanelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +69,9 @@
 		DB00A4D38C7EBC8F0C672A41A170DFBB /* AnimationPanel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimationPanel.xcconfig; sourceTree = "<group>"; };
 		E39B10985603C4360A317DC1FFA12892 /* Pods-AnimationPanel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimationPanel_Tests-resources.sh"; sourceTree = "<group>"; };
 		EA4A23ACED31772BF7B2E317AA6F0A97 /* Pods-AnimationPanel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationPanel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F18F49C6C3AF7FAB4CEB0826CE34B881 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AnimationPanel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F19EF9396D3EDF0CB060F8140EA78304 /* Pods-AnimationPanel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationPanel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FA3C736C21D2008800AF2C5A /* PanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelView.swift; sourceTree = "<group>"; };
+		FA3C737221D2051C00AF2C5A /* Panel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Panel.swift; path = AnimationPanel/Classes/Panel.swift; sourceTree = "<group>"; };
+		FA3C737621D208E300AF2C5A /* PanelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PanelView.swift; path = AnimationPanel/Classes/PanelView.swift; sourceTree = "<group>"; };
 		FB8153D1326BE5FB2A56429938FFC634 /* Pods-AnimationPanel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimationPanel_Tests.modulemap"; sourceTree = "<group>"; };
 		FFAF79A83F2CE220AC36C73A985BF9CB /* AnimationPanel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimationPanel-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,10 +149,10 @@
 		5541F94ACC1E2357CC7304BC0A690567 /* AnimationPanel */ = {
 			isa = PBXGroup;
 			children = (
-				FA3C736C21D2008800AF2C5A /* PanelView.swift */,
-				F18F49C6C3AF7FAB4CEB0826CE34B881 /* ReplaceMe.swift */,
 				D9F2D9E318811F5D675B7774F855BAEC /* Pod */,
 				1E451416A3AAF8ABD064C656B329845E /* Support Files */,
+				FA3C737221D2051C00AF2C5A /* Panel.swift */,
+				FA3C737621D208E300AF2C5A /* PanelView.swift */,
 			);
 			name = AnimationPanel;
 			path = ../..;
@@ -381,9 +381,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA3C736D21D2008800AF2C5A /* PanelView.swift in Sources */,
+				FA3C737721D208E300AF2C5A /* PanelView.swift in Sources */,
 				6DBCAA6F871B3B56BB87E335DA8E17B7 /* AnimationPanel-dummy.m in Sources */,
-				FFFDFA3C1A1D5EF4F3C15FA6E3F939EF /* ReplaceMe.swift in Sources */,
+				FA3C737321D2051C00AF2C5A /* Panel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
