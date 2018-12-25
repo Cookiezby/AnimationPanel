@@ -1,0 +1,22 @@
+{
+  "name": "AnimationPanel",
+  "version": "0.1.0",
+  "summary": "A short description of AnimationPanel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Cookiezby/AnimationPanel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Cookiezby": "zhubingyi1992@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Cookiezby/AnimationPanel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnimationPanel/Classes/**/*"
+}

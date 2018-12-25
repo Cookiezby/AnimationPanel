@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnimationPanel_Example' do
+  pod 'AnimationPanel', :path => '../'
+
+  target 'AnimationPanel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

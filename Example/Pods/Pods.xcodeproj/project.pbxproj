@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EB783D5E713E8DE2F3523B5D0ACF53E /* Pods-AnimationPanel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E5F97E4150B6FDB0575E91DBCB7B81 /* Pods-AnimationPanel_Example-dummy.m */; };
+		1F544908F789EADAB892972E8DFAB858 /* Pods-AnimationPanel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1AA457F3CE0818C1DD3920CD65B248 /* Pods-AnimationPanel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F84094B798ED617F9EF9CE8257FCE45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4410D275D8ECA0F8D738AE697911F004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4AB03E7269EA8E107BFA7841D361735E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6DBCAA6F871B3B56BB87E335DA8E17B7 /* AnimationPanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 765D6DF3ED342E9EB15523628D47627F /* AnimationPanel-dummy.m */; };
+		8F8E0BAEF235F52C4E4473746DD9BE1B /* Pods-AnimationPanel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0F879BBD441EC858CF11DBA9FEB8E0 /* Pods-AnimationPanel_Tests-dummy.m */; };
+		E211CC42952D1F72C29F33C47EE3FD5D /* AnimationPanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C959F7EDED8E1C7B2668A8F64DCC89A9 /* AnimationPanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F82F3A9155EB3ED85ABD8202300EE5D8 /* Pods-AnimationPanel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8916D2FCEC64A81F43E6ED2B6F19301A /* Pods-AnimationPanel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA3C736D21D2008800AF2C5A /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C736C21D2008800AF2C5A /* PanelView.swift */; };
+		FFFDFA3C1A1D5EF4F3C15FA6E3F939EF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F49C6C3AF7FAB4CEB0826CE34B881 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E696DA7441C4EA6B52B985E549D5FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CAD8441A29F786D41E07CFEA031B861;
+			remoteInfo = AnimationPanel;
+		};
+		C220194DF10AB83D82042D27DD69CE91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B663FD8C7A4AF871D7FB0D09D2443266;
+			remoteInfo = "Pods-AnimationPanel_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FBEFF0920811743189E1650D72CF4F1 /* Pods-AnimationPanel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimationPanel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FCD4B19A0EC93FEE7B1F1BAA0508BEB /* Pods-AnimationPanel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimationPanel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2C1AA457F3CE0818C1DD3920CD65B248 /* Pods-AnimationPanel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimationPanel_Example-umbrella.h"; sourceTree = "<group>"; };
+		2FA9BC8E242D653365FDAFB021F6CBD5 /* Pods-AnimationPanel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimationPanel_Example-resources.sh"; sourceTree = "<group>"; };
+		382AA13BF6C6959A1054D14A1A1FC4CA /* Pods-AnimationPanel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimationPanel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BF0BCEDCA65B1042AD0A68DFEB6AF49 /* Pods-AnimationPanel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationPanel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		43E5181823D22A28BA6C1024BDDE9F01 /* Pods-AnimationPanel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimationPanel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		44F49E1C40B17FE105D1A63B2D175F14 /* Pods-AnimationPanel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimationPanel_Example.modulemap"; sourceTree = "<group>"; };
+		4FB865590D563EB2DE54AEBA5D900223 /* Pods-AnimationPanel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimationPanel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5812F0B63CFDE033121D9AFE585EDC51 /* AnimationPanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimationPanel.modulemap; sourceTree = "<group>"; };
+		59B9359DB714CC3932E379794CC8413F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6328E054CB3DD6D3DD5B5B6AFA3A4927 /* Pods-AnimationPanel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationPanel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		68E5F97E4150B6FDB0575E91DBCB7B81 /* Pods-AnimationPanel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimationPanel_Example-dummy.m"; sourceTree = "<group>"; };
+		6B41D5AF033FE0F700F4A7B703CD2A65 /* Pods_AnimationPanel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationPanel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		748D97CB0B6594A74035A246327A978D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		765D6DF3ED342E9EB15523628D47627F /* AnimationPanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimationPanel-dummy.m"; sourceTree = "<group>"; };
+		860B97E67871C225BD9DDDED3369DD88 /* Pods_AnimationPanel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationPanel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8916D2FCEC64A81F43E6ED2B6F19301A /* Pods-AnimationPanel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimationPanel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8D06F78189280A8D7F7FC3CF5013094A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99286F41CC7D28B836CB41C3A0FD1A14 /* AnimationPanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnimationPanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0F879BBD441EC858CF11DBA9FEB8E0 /* Pods-AnimationPanel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimationPanel_Tests-dummy.m"; sourceTree = "<group>"; };
+		B38E01BED3E3548CDCD58DA51985CD05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36ED32534205CB5E15795629AE5E27F /* AnimationPanel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AnimationPanel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C959F7EDED8E1C7B2668A8F64DCC89A9 /* AnimationPanel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimationPanel-umbrella.h"; sourceTree = "<group>"; };
+		CB2C0C8C1F98D02384A4296ACF94B347 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D962AE3BB088930FC2F051FA20867BD6 /* Pods-AnimationPanel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimationPanel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB00A4D38C7EBC8F0C672A41A170DFBB /* AnimationPanel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimationPanel.xcconfig; sourceTree = "<group>"; };
+		E39B10985603C4360A317DC1FFA12892 /* Pods-AnimationPanel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimationPanel_Tests-resources.sh"; sourceTree = "<group>"; };
+		EA4A23ACED31772BF7B2E317AA6F0A97 /* Pods-AnimationPanel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationPanel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F18F49C6C3AF7FAB4CEB0826CE34B881 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AnimationPanel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F19EF9396D3EDF0CB060F8140EA78304 /* Pods-AnimationPanel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationPanel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FA3C736C21D2008800AF2C5A /* PanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelView.swift; sourceTree = "<group>"; };
+		FB8153D1326BE5FB2A56429938FFC634 /* Pods-AnimationPanel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimationPanel_Tests.modulemap"; sourceTree = "<group>"; };
+		FFAF79A83F2CE220AC36C73A985BF9CB /* AnimationPanel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimationPanel-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F9B2CB257DDF6D1FF3B3EE64A4F4F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4410D275D8ECA0F8D738AE697911F004 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2978FB2AA7859064BC1E2AF56FC9335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB03E7269EA8E107BFA7841D361735E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42AC49FC6CACB6DE415597E1C369E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F84094B798ED617F9EF9CE8257FCE45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1440391AF0298680DCA0B41BC7E809DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99286F41CC7D28B836CB41C3A0FD1A14 /* AnimationPanel.framework */,
+				860B97E67871C225BD9DDDED3369DD88 /* Pods_AnimationPanel_Example.framework */,
+				6B41D5AF033FE0F700F4A7B703CD2A65 /* Pods_AnimationPanel_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E451416A3AAF8ABD064C656B329845E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5812F0B63CFDE033121D9AFE585EDC51 /* AnimationPanel.modulemap */,
+				DB00A4D38C7EBC8F0C672A41A170DFBB /* AnimationPanel.xcconfig */,
+				765D6DF3ED342E9EB15523628D47627F /* AnimationPanel-dummy.m */,
+				FFAF79A83F2CE220AC36C73A985BF9CB /* AnimationPanel-prefix.pch */,
+				C959F7EDED8E1C7B2668A8F64DCC89A9 /* AnimationPanel-umbrella.h */,
+				59B9359DB714CC3932E379794CC8413F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AnimationPanel";
+			sourceTree = "<group>";
+		};
+		3C1E457DBEF1B6FC9A228BB2F66E17C8 /* Pods-AnimationPanel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B38E01BED3E3548CDCD58DA51985CD05 /* Info.plist */,
+				FB8153D1326BE5FB2A56429938FFC634 /* Pods-AnimationPanel_Tests.modulemap */,
+				D962AE3BB088930FC2F051FA20867BD6 /* Pods-AnimationPanel_Tests-acknowledgements.markdown */,
+				382AA13BF6C6959A1054D14A1A1FC4CA /* Pods-AnimationPanel_Tests-acknowledgements.plist */,
+				AD0F879BBD441EC858CF11DBA9FEB8E0 /* Pods-AnimationPanel_Tests-dummy.m */,
+				43E5181823D22A28BA6C1024BDDE9F01 /* Pods-AnimationPanel_Tests-frameworks.sh */,
+				E39B10985603C4360A317DC1FFA12892 /* Pods-AnimationPanel_Tests-resources.sh */,
+				8916D2FCEC64A81F43E6ED2B6F19301A /* Pods-AnimationPanel_Tests-umbrella.h */,
+				3BF0BCEDCA65B1042AD0A68DFEB6AF49 /* Pods-AnimationPanel_Tests.debug.xcconfig */,
+				F19EF9396D3EDF0CB060F8140EA78304 /* Pods-AnimationPanel_Tests.release.xcconfig */,
+			);
+			name = "Pods-AnimationPanel_Tests";
+			path = "Target Support Files/Pods-AnimationPanel_Tests";
+			sourceTree = "<group>";
+		};
+		5541F94ACC1E2357CC7304BC0A690567 /* AnimationPanel */ = {
+			isa = PBXGroup;
+			children = (
+				FA3C736C21D2008800AF2C5A /* PanelView.swift */,
+				F18F49C6C3AF7FAB4CEB0826CE34B881 /* ReplaceMe.swift */,
+				D9F2D9E318811F5D675B7774F855BAEC /* Pod */,
+				1E451416A3AAF8ABD064C656B329845E /* Support Files */,
+			);
+			name = AnimationPanel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				ABFEF71698446926938ACDD3928487C4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1440391AF0298680DCA0B41BC7E809DF /* Products */,
+				C067D09894316DD6E92C0BCF3C447E82 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ABFEF71698446926938ACDD3928487C4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5541F94ACC1E2357CC7304BC0A690567 /* AnimationPanel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B3C1AE730D35FDEA67E130D6F3019CAF /* Pods-AnimationPanel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CB2C0C8C1F98D02384A4296ACF94B347 /* Info.plist */,
+				44F49E1C40B17FE105D1A63B2D175F14 /* Pods-AnimationPanel_Example.modulemap */,
+				1FBEFF0920811743189E1650D72CF4F1 /* Pods-AnimationPanel_Example-acknowledgements.markdown */,
+				4FB865590D563EB2DE54AEBA5D900223 /* Pods-AnimationPanel_Example-acknowledgements.plist */,
+				68E5F97E4150B6FDB0575E91DBCB7B81 /* Pods-AnimationPanel_Example-dummy.m */,
+				1FCD4B19A0EC93FEE7B1F1BAA0508BEB /* Pods-AnimationPanel_Example-frameworks.sh */,
+				2FA9BC8E242D653365FDAFB021F6CBD5 /* Pods-AnimationPanel_Example-resources.sh */,
+				2C1AA457F3CE0818C1DD3920CD65B248 /* Pods-AnimationPanel_Example-umbrella.h */,
+				6328E054CB3DD6D3DD5B5B6AFA3A4927 /* Pods-AnimationPanel_Example.debug.xcconfig */,
+				EA4A23ACED31772BF7B2E317AA6F0A97 /* Pods-AnimationPanel_Example.release.xcconfig */,
+			);
+			name = "Pods-AnimationPanel_Example";
+			path = "Target Support Files/Pods-AnimationPanel_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C067D09894316DD6E92C0BCF3C447E82 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3C1AE730D35FDEA67E130D6F3019CAF /* Pods-AnimationPanel_Example */,
+				3C1E457DBEF1B6FC9A228BB2F66E17C8 /* Pods-AnimationPanel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D9F2D9E318811F5D675B7774F855BAEC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C36ED32534205CB5E15795629AE5E27F /* AnimationPanel.podspec */,
+				748D97CB0B6594A74035A246327A978D /* LICENSE */,
+				8D06F78189280A8D7F7FC3CF5013094A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47A545F21E2A34F2BA777D0A9F317071 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E211CC42952D1F72C29F33C47EE3FD5D /* AnimationPanel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B216B3F5E2825C6CA9F90AC1A9D8E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F544908F789EADAB892972E8DFAB858 /* Pods-AnimationPanel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFC8D3B5A200F48CB8BD73329D8BEE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82F3A9155EB3ED85ABD8202300EE5D8 /* Pods-AnimationPanel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6CAD8441A29F786D41E07CFEA031B861 /* AnimationPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF9C00A234FD9C41BE894AEB1C84CE5 /* Build configuration list for PBXNativeTarget "AnimationPanel" */;
+			buildPhases = (
+				47A545F21E2A34F2BA777D0A9F317071 /* Headers */,
+				96FB4264C25726210D75F420FE4B982A /* Sources */,
+				7F9B2CB257DDF6D1FF3B3EE64A4F4F6E /* Frameworks */,
+				E8B0E8A6A258E03694527969B74BDC13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationPanel;
+			productName = AnimationPanel;
+			productReference = 99286F41CC7D28B836CB41C3A0FD1A14 /* AnimationPanel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADBB8D8E666396992D889A244073DEE5 /* Pods-AnimationPanel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D8FEEFC2702907222460C57D4DED3FC /* Build configuration list for PBXNativeTarget "Pods-AnimationPanel_Tests" */;
+			buildPhases = (
+				DFFC8D3B5A200F48CB8BD73329D8BEE6 /* Headers */,
+				2E16C21CB6B6CD4DFC6AD62C003877E4 /* Sources */,
+				F42AC49FC6CACB6DE415597E1C369E63 /* Frameworks */,
+				2234C6376A35562AAC50942678E52EB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1404FCE0E4EC121DC88220B2C50F5967 /* PBXTargetDependency */,
+			);
+			name = "Pods-AnimationPanel_Tests";
+			productName = "Pods-AnimationPanel_Tests";
+			productReference = 6B41D5AF033FE0F700F4A7B703CD2A65 /* Pods_AnimationPanel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B663FD8C7A4AF871D7FB0D09D2443266 /* Pods-AnimationPanel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FA2D39DA44D7EB1B71706B477B1256 /* Build configuration list for PBXNativeTarget "Pods-AnimationPanel_Example" */;
+			buildPhases = (
+				A6B216B3F5E2825C6CA9F90AC1A9D8E9 /* Headers */,
+				D1620CD87CF74B22E7D4E6EDF0121B51 /* Sources */,
+				E2978FB2AA7859064BC1E2AF56FC9335 /* Frameworks */,
+				9B9ACECB49649114D97708BC8D541CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DF9C600A21D1EEF5C87AC95FBD4D0F /* PBXTargetDependency */,
+			);
+			name = "Pods-AnimationPanel_Example";
+			productName = "Pods-AnimationPanel_Example";
+			productReference = 860B97E67871C225BD9DDDED3369DD88 /* Pods_AnimationPanel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1440391AF0298680DCA0B41BC7E809DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CAD8441A29F786D41E07CFEA031B861 /* AnimationPanel */,
+				B663FD8C7A4AF871D7FB0D09D2443266 /* Pods-AnimationPanel_Example */,
+				ADBB8D8E666396992D889A244073DEE5 /* Pods-AnimationPanel_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2234C6376A35562AAC50942678E52EB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9ACECB49649114D97708BC8D541CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B0E8A6A258E03694527969B74BDC13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E16C21CB6B6CD4DFC6AD62C003877E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8E0BAEF235F52C4E4473746DD9BE1B /* Pods-AnimationPanel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FB4264C25726210D75F420FE4B982A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3C736D21D2008800AF2C5A /* PanelView.swift in Sources */,
+				6DBCAA6F871B3B56BB87E335DA8E17B7 /* AnimationPanel-dummy.m in Sources */,
+				FFFDFA3C1A1D5EF4F3C15FA6E3F939EF /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1620CD87CF74B22E7D4E6EDF0121B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB783D5E713E8DE2F3523B5D0ACF53E /* Pods-AnimationPanel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1404FCE0E4EC121DC88220B2C50F5967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AnimationPanel_Example";
+			target = B663FD8C7A4AF871D7FB0D09D2443266 /* Pods-AnimationPanel_Example */;
+			targetProxy = C220194DF10AB83D82042D27DD69CE91 /* PBXContainerItemProxy */;
+		};
+		D5DF9C600A21D1EEF5C87AC95FBD4D0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnimationPanel;
+			target = 6CAD8441A29F786D41E07CFEA031B861 /* AnimationPanel */;
+			targetProxy = 8E696DA7441C4EA6B52B985E549D5FC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C701BB50159C91FBEFB5B9390635357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF0BCEDCA65B1042AD0A68DFEB6AF49 /* Pods-AnimationPanel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimationPanel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimationPanel_Tests/Pods-AnimationPanel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2133E0DA840A6134E7F761968418DC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB00A4D38C7EBC8F0C672A41A170DFBB /* AnimationPanel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimationPanel/AnimationPanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimationPanel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimationPanel/AnimationPanel.modulemap";
+				PRODUCT_MODULE_NAME = AnimationPanel;
+				PRODUCT_NAME = AnimationPanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A00FF9EAF1CE90DE9A0FB130C3F79A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19EF9396D3EDF0CB060F8140EA78304 /* Pods-AnimationPanel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimationPanel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimationPanel_Tests/Pods-AnimationPanel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D5BC11D3B42E5A993F4E335F387CAC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6328E054CB3DD6D3DD5B5B6AFA3A4927 /* Pods-AnimationPanel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimationPanel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimationPanel_Example/Pods-AnimationPanel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6B16952847A59C8B212B7EEA17BFE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA4A23ACED31772BF7B2E317AA6F0A97 /* Pods-AnimationPanel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimationPanel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimationPanel_Example/Pods-AnimationPanel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D703BE832A5BE925F1454BBF1F744E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB00A4D38C7EBC8F0C672A41A170DFBB /* AnimationPanel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimationPanel/AnimationPanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimationPanel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimationPanel/AnimationPanel.modulemap";
+				PRODUCT_MODULE_NAME = AnimationPanel;
+				PRODUCT_NAME = AnimationPanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FA2D39DA44D7EB1B71706B477B1256 /* Build configuration list for PBXNativeTarget "Pods-AnimationPanel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BC11D3B42E5A993F4E335F387CAC64 /* Debug */,
+				D6B16952847A59C8B212B7EEA17BFE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D8FEEFC2702907222460C57D4DED3FC /* Build configuration list for PBXNativeTarget "Pods-AnimationPanel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C701BB50159C91FBEFB5B9390635357 /* Debug */,
+				A00FF9EAF1CE90DE9A0FB130C3F79A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF9C00A234FD9C41BE894AEB1C84CE5 /* Build configuration list for PBXNativeTarget "AnimationPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D703BE832A5BE925F1454BBF1F744E79 /* Debug */,
+				2133E0DA840A6134E7F761968418DC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

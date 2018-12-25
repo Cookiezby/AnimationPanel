@@ -1,0 +1,6 @@
+framework module AnimationPanel {
+  umbrella header "AnimationPanel-umbrella.h"
+
+  export *
+  module * { export * }
+}

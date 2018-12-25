@@ -1,0 +1,16 @@
+PODS:
+  - AnimationPanel (0.1.0)
+
+DEPENDENCIES:
+  - AnimationPanel (from `../`)
+
+EXTERNAL SOURCES:
+  AnimationPanel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimationPanel: a533375a5a28ddb7480b214055471116ce08fcd4
+
+PODFILE CHECKSUM: 5aa2db8b1c93c682e75d12148e2adea46740315c
+
+COCOAPODS: 1.5.3
