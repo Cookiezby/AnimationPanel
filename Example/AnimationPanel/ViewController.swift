@@ -13,10 +13,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        Panel.shared.animateSpring(animations: {
-            self.view.layoutIfNeeded()
-        })
         // Do any additional setup after loading the view, typically from a nib.
     }
 

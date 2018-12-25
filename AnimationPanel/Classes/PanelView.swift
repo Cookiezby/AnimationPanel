@@ -8,17 +8,31 @@
 import Foundation
 import UIKit
 
+@available(iOS 10.0, *)
 public class PanelView: UIView {
-    private let tableView: UITableView = {
+    
+    public static let shared = PanelView(frame: CGRect(x: 0, y: 0, width: 150, height: UIScreen.main.bounds.height))
+    
+    private lazy var tableView: UITableView = {
         let view = UITableView()
+        view.delegate = self
+        view.dataSource = self
+        view.backgroundColor = .black
         return view
     }()
     
-    
     public override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .black
-        alpha = 0.8
+        addSubview(tableView)
+        backgroundColor = .red
+        setupConstraints()
+    }
+
+    private func setupConstraints() {
+        tableView.topAnchor.constraint(equalTo: self.topAnchor)
+        tableView.leftAnchor.constraint(equalTo: self.leftAnchor)
+        tableView.rightAnchor.constraint(equalTo: self.rightAnchor)
+        tableView.bottomAnchor.constraint(equalTo: self.bottomAnchor)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -26,6 +40,7 @@ public class PanelView: UIView {
     }
 }
 
+@available(iOS 10.0, *)
 extension PanelView: UITableViewDelegate, UITableViewDataSource {
     public func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -37,5 +52,13 @@ extension PanelView: UITableViewDelegate, UITableViewDataSource {
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
+    }
+}
+
+@available(iOS 10.0, *)
+extension PanelView {
+    public class func setup() {
+        PanelView.shared.layer.zPosition = CGFloat(MAXFLOAT)
+        UIApplication.shared.windows.last?.addSubview(PanelView.shared)
     }
 }
