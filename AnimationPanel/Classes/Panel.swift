@@ -22,9 +22,7 @@ public class Panel {
     
     @available(iOS 7.0, *)
     public func animate(animations: @escaping () -> Void, completion: ((Bool) -> Void)? = nil) {
-        
         animationOptions = [.curveLinear, .curveEaseOut]
-        
         UIView.animate(withDuration: timeInterval, delay: delay, options: animationOptions, animations: animations, completion: completion)
     }
     
