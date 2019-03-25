@@ -8,8 +8,8 @@
 import Foundation
 import UIKit
 
-public class Panel {
-    public static let shared = Panel()
+public class AnimationPanel {
+    public static let shared = AnimationPanel()
 
     //basic property
     var timeInterval: TimeInterval = 0

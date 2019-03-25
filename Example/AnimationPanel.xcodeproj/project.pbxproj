@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6E30F313D4E6447594583BD2 /* Pods_AnimationPanel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38F2364A888130091EDA829 /* Pods_AnimationPanel_Tests.framework */; };
+		FA6C9D2C22492958001DFC4C /* AnimationPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C9D2B22492958001DFC4C /* AnimationPanelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		60A87DFA247DBD56EAE40DE8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D62271C41499EE410841C653 /* Pods-AnimationPanel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationPanel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationPanel_Example/Pods-AnimationPanel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F38F2364A888130091EDA829 /* Pods_AnimationPanel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationPanel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6C9D2B22492958001DFC4C /* AnimationPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPanelViewController.swift; sourceTree = "<group>"; };
 		FE816ABB9367D3068B06BA96 /* Pods-AnimationPanel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationPanel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationPanel_Example/Pods-AnimationPanel_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 		607FACD21AFB9204008FA782 /* Example for AnimationPanel */ = {
 			isa = PBXGroup;
 			children = (
+				FA6C9D2B22492958001DFC4C /* AnimationPanelViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -336,6 +339,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				FA6C9D2C22492958001DFC4C /* AnimationPanelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -472,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

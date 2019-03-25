@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="4096" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="319"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEa-Pt-DIf">
+                    <rect key="frame" x="0.0" y="0.0" width="406" height="319"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5We-Vp-knL">
+                            <rect key="frame" x="0.0" y="40" width="406" height="279"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tg-HH-qdm">
+                            <rect key="frame" x="15" y="0.0" width="46" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="1hN-i8-Cok"/>
+                                <constraint firstAttribute="height" constant="40" id="rE7-xF-Gmd"/>
+                            </constraints>
+                            <state key="normal" title="Menu"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="5We-Vp-knL" secondAttribute="trailing" id="8rp-ty-ePw"/>
+                        <constraint firstItem="5We-Vp-knL" firstAttribute="leading" secondItem="hEa-Pt-DIf" secondAttribute="leading" id="AI7-D0-X0g"/>
+                        <constraint firstItem="5We-Vp-knL" firstAttribute="top" secondItem="hEa-Pt-DIf" secondAttribute="top" constant="40" id="HJq-Fc-zwR"/>
+                        <constraint firstItem="4tg-HH-qdm" firstAttribute="top" secondItem="hEa-Pt-DIf" secondAttribute="top" id="WTa-Lo-8Yo"/>
+                        <constraint firstItem="4tg-HH-qdm" firstAttribute="leading" secondItem="hEa-Pt-DIf" secondAttribute="leading" constant="15" id="hzV-9X-ebX"/>
+                        <constraint firstAttribute="bottom" secondItem="5We-Vp-knL" secondAttribute="bottom" id="n7K-Hs-OpX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hEa-Pt-DIf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="cfd-bo-5ZL"/>
+                <constraint firstItem="hEa-Pt-DIf" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="eeU-yx-jP6"/>
+                <constraint firstItem="hEa-Pt-DIf" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="pN5-Vn-fMW"/>
+                <constraint firstItem="hEa-Pt-DIf" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="v05-6W-wDy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="252.80000000000001" y="-644.52773613193403"/>
+        </view>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uvB-7C-2GZ">
+            <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <nil key="textColor"/>
+            <nil key="highlightedColor"/>
+        </label>
+    </objects>
+</document>

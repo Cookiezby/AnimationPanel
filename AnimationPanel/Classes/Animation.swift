@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import UIKit
 
-struct PanelAnimation {
+struct Animation {
     var name: String
     var timeInterval: TimeInterval
     var delay: TimeInterval
